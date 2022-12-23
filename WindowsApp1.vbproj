@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{342B32FB-829E-4679-A18C-DA85192E93CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApp1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApp1</RootNamespace>
+    <AssemblyName>WindowsApp1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="choose.Designer.vb">
+      <DependentUpon>choose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="choose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="choose2.Designer.vb">
+      <DependentUpon>choose2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="choose2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L2P3.Designer.vb">
+      <DependentUpon>L2P3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="L2P3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOME.Designer.vb">
+      <DependentUpon>HOME.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINISH.Designer.vb">
+      <DependentUpon>FINISH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FINISH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXPLAN.Designer.vb">
+      <DependentUpon>EXPLAN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EXPLAN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L3P1.Designer.vb">
+      <DependentUpon>L3P1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="L3P1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L1P1.Designer.vb">
+      <DependentUpon>L1P1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="L1P1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L1P2.Designer.vb">
+      <DependentUpon>L1P2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="L1P2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L1P3.Designer.vb">
+      <DependentUpon>L1P3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="L1P3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L2P1.Designer.vb">
+      <DependentUpon>L2P1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="L2P1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L2P2.Designer.vb">
+      <DependentUpon>L2P2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="L2P2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LEVEL2.Designer.vb">
+      <DependentUpon>LEVEL2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LEVEL2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YOUDIE.Designer.vb">
+      <DependentUpon>YOUDIE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YOUDIE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PASS.Designer.vb">
+      <DependentUpon>PASS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PASS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="choose.resx">
+      <DependentUpon>choose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="choose2.resx">
+      <DependentUpon>choose2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="L2P3.resx">
+      <DependentUpon>L2P3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HOME.resx">
+      <DependentUpon>HOME.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINISH.resx">
+      <DependentUpon>FINISH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXPLAN.resx">
+      <DependentUpon>EXPLAN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="L3P1.resx">
+      <DependentUpon>L3P1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="L1P1.resx">
+      <DependentUpon>L1P1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="L1P2.resx">
+      <DependentUpon>L1P2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="L1P3.resx">
+      <DependentUpon>L1P3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="L2P1.resx">
+      <DependentUpon>L2P1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="L2P2.resx">
+      <DependentUpon>L2P2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LEVEL2.resx">
+      <DependentUpon>LEVEL2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YOUDIE.resx">
+      <DependentUpon>YOUDIE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PASS.resx">
+      <DependentUpon>PASS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9999.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11301.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11302.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11303.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11304.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11305.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11306.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11307.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\201831-12062519135259.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20151110-h0207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11136093960.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36093979.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36102175.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36102176.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36093970.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36102177.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36102216.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36102220.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\圖片2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1nDvkVDGaofcY4IX3vuA%253DOAvFaqOqyPrEBEs7RXJoR7xc1472542717706.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7a1c48fd1684ab368ab64768395d62ef.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\582bd4beee731bd1b617d86d1e6dd56b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6661.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113031.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113041.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113051.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113061.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113071.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62573bafe25dc5a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\201831-120625191352591.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20151110-h02071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111360939601.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20170602082504g8YUfoEOAKrblIyR.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36110339.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36110338.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__360939791.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__360939792.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2c5bfe92593a44a3db84f959fee77f1e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\圖片1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\圖片11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\圖片12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heypik-high-definition-psd-design-brick-wall_169139531.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3465339_orig.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heypik-high-definition-psd-design-brick-wall_169139532.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\球.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\球1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6662.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6663.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36962317.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36962316.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36962314.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__36962315.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
